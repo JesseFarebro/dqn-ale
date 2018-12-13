@@ -1,0 +1,4 @@
+[submodule "Arcade-Learning-Environment"]
+	path = Arcade-Learning-Environment
+	url = https://github.com/mgbellemare/Arcade-Learning-Environment
+	branch = tags/v0.6.0

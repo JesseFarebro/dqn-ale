@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "DQN-ALE"
+version = "0.1.0"
+description = "DQN baseline implementation confirming to the latest methodologies for the Arcade Learning Environment"
+authors = ["Jesse Farebrother <jessefarebro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tensorflow = "^1.12"
+tensorflow-gpu = {version = "^1.12",optional = true}
+tqdm = "^4.28"
+numpy = "^1.15"
+ale-python-interface = {path = "./Arcade-Learning-Environment/"}
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.11.0"
+pytest = "^4.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
