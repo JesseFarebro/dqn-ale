@@ -43,4 +43,5 @@ More in depth documentation for each hyperparameter can be found in [docs/config
 ## References
 
 [1] [Machado et al., Revisiting the Arcade Learning Environment: Evaluation Protocols and Open Problems for General Agents](https://arxiv.org/abs/1709.06009)
+
 [2] [Farebrother et al., Generalization and Regularization in DQN](https://arxiv.org/abs/1810.00123)
